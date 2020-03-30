@@ -1,0 +1,161 @@
+.hero {
+    background-image: url(../img/city-89197_1920.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 9rem;
+}
+
+.hero h1, h2, h3, h4, p {
+    color: white;
+}
+
+.color {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.top-nav-collapse {
+    background: rgba(0, 0, 0, 0.774) !important;
+}
+
+.hero_title {
+    display: flex;
+    justify-content: center;
+}
+
+.hero_title h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.hero_description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero_description h3 {
+    font-family: initial;
+    color: floralwhite;
+    font-size: 1.8rem;
+    border-bottom: 2px solid whitesmoke;
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero_description strong {
+    font-weight: 600;
+    color: wheat;
+}
+
+.lista_social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.lista_social a {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.profile_img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 3.5rem;
+    /* width: auto; */
+    /* width: 130px; */
+}
+
+.about__container h1, h2, h3, h4, p {
+    color: black;
+}
+
+.about__container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.about_title {
+    color: white;
+    font-weight: 550;
+}
+
+.about_details {
+    color: dimgray;
+    font-family: serif;
+    font-size: 1.3rem;
+}
+
+.about_contact {
+    margin-top: 2rem;
+}
+
+.container_resume {
+    margin-top: 4rem;
+    /* margin-left: -2rem; */
+}
+
+.about_title_items {
+    text-align: center;
+}
+
+.row h3 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#col8_resume h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#col8_resume h4 {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#col8_resume p {
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 1rem;
+}
+
+#col8_resume {
+    border-bottom: 1px solid gray;
+    padding-top: 1rem;
+}
+
+#col4_resume {
+    padding-top: 1rem;
+}
+
+#pb_title {
+    font-style: normal !important;
+    font-weight: 600;
+    font-size: 1rem !important;
+}
+
+.card {
+    margin: 1rem;
+}
+
+#projects_title {
+    font-size: 1.6rem;
+    font-family: initial;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#projects_title span {
+    border-bottom: 1px solid cornflowerblue;
+}
