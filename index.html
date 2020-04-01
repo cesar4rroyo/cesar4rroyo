@@ -33,11 +33,8 @@
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="shortcut icon" href="./img/modals/iconoLogo.png" type="image/x-icon">
     </head>
-
-    <body>
-        
-        <div class="container">
-            <nav class="nav_menu fixed-top">
+    <body>        
+            <nav class="nav_menu fixed">
                 <div class="btn_menu">
                     <i class="fas fa-bars" id="btn_burger"></i>
                </div>
@@ -49,8 +46,7 @@
                    <li><a href="#events" id="events_btn">events</a></li>
                    <li><a href="#contact" id="contact_btn">contact</a></li>
                </ul>
-        </nav>  
-        </div>    
+            </nav>  
         <div class="hero" id="home">
             <div class="container">
                 <div class="hero_title">
@@ -115,6 +111,11 @@
                     </li>
                 </ul>
             </div>
+            <div class="btn_up"  >
+                <a href="#home">
+                    <i class="fas fa-caret-square-up"></i>
+                </a>
+            </div>
         </div>
         <section id="about" class="about__container">
             <div class="container" style="display: flex; justify-content: center; ">
@@ -152,38 +153,7 @@
                   
                     </div>
                   
-                  </div>
-                <!-- <div class="row">
-                    <div class="col-4">
-                        <img
-                            class="profile_img"
-                            src="./img/link1.jpg"
-                            alt="imgProfile"
-                        />
-                    </div>
-                    <div class="col-8">
-                        <h3 class="about_title">About Me</h3>
-                        <h4 class="about_details">
-                            I am a student of Systems Engineering, coding is my
-                            passion, every day I practice to improve my designs
-                            and programming skills, every day I learn new
-                            things, I am currently doing FrontEnd but in the
-                            future I would like to be a Full Stack Developer, in
-                            my time I like to play football, go out with my
-                            friends and listen to loud music.
-                        </h4>
-                        <div class="about_contact">
-                            <h3 class="about_title">Contatc Details</h3>
-                            <h4 class="about_details">
-                                Cesar Arroyo <br />
-                                345 Antenor Orrego <br />
-                                Chiclayo, Lambayeque-Perú. <br />
-                                (+51) 924-734-626 <br />
-                                cesardavid_09@hotmail.com
-                            </h4>
-                        </div>
-                    </div>
-                </div> -->
+                  </div>                
             </div>
         </section>
         <section class="container_resume" id="resume">
@@ -675,16 +645,93 @@
             </div>
         </section>
         <section id="contact">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <div class="container">               
+                    <section class="contact-section my-5">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="card-body form">
+                                        <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Contac me:</h3>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form-contact-name" class="form-control">
+                                                <label for="form-contact-name" class="">Your name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form-contact-email" class="form-control">
+                                                <label for="form-contact-email" class="">Your email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form-contact-phone" class="form-control">
+                                                <label for="form-contact-phone" class="">Your phone</label>
+                                            </div>
+                                        </div>
+                                    </div>               
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form mb-0">
+                                                <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                                <label for="form-contact-message">Your message</label>
+                                                <a style="color: white;" class="btn-floating btn-lg blue" href="mailto:cesardavid_09@hotmail.com">
+                                                    <i class="far fa-paper-plane"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>         
+                        <div class="col-lg-4">
+                
+                            <div class="card-body contact text-center h-100 white-text" style="background-color: darkcyan; color: white;">
+                    
+                                <h3 class="my-4 pb-2" style="color: white;">Contact information</h3>
+                                <ul class="text-lg-left list-unstyled ml-4">
+                                <li>
+                                    <p style="color: white;"><i class="fas fa-map-marker-alt pr-2"></i>Chiclayo, La Victoria, PERU</p>
+                                </li>
+                                <li>
+                                    <p style="color: white;"><i class="fas fa-phone pr-2"></i>+ 51 924 734 626</p>
+                                </li>
+                                <li>
+                                    <p style="color: white;"><i class="fas fa-envelope pr-2"></i>cesardavid_09@gmail.com</p>
+                                </li>
+                                </ul>
+                                <hr class="hr-light my-4">
+                                <ul class="list-inline text-center list-unstyled">
+                                <li class="list-inline-item" >
+                                    <a style="color: white;" class="p-2 fa-lg tw-ic" href="https://twitter.com/cesar4rroyo" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a style="color: white;" class="p-2 fa-lg li-ic" href="https://www.linkedin.com/in/c%C3%A9sar-arroyo-torres-062283192/" target="_blank">
+                                    <i class="fab fa-linkedin-in"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a style="color: white;" class="p-2 fa-lg ins-ic" href="https://www.instagram.com/cesar4rroyo/">
+                                    <i class="fab fa-instagram"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a style="color: white;" class="p-2 fa-lg ins-ic" href="https://wa.link/kg3i4n" target="_blank">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                                </ul>    
+                            </div>    
+                        </div>    
+                        </div>    
+                        </div>    
+                    </section>  
+            </div>
         </section>
         <footer>
             <footer class="page-footer font-small black darken-3">
