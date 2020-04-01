@@ -33,49 +33,24 @@
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="shortcut icon" href="./img/modals/iconoLogo.png" type="image/x-icon">
     </head>
+
     <body>
-        <nav
-            class="navbar navbar-expand-lg navbar-dark color scrolling-navbar fixed-top"
-        >
-            <div class="container">
-                <a class="navbar-brand" href="#">Cesar Arroyo</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="true"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarSupportedContent"
-                >
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home"
-                                >Home <span class="sr-only">(current)</span></a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#events">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        
+        <div class="container">
+            <nav class="nav_menu fixed-top">
+                <div class="btn_menu">
+                    <i class="fas fa-bars" id="btn_burger"></i>
+               </div>
+               <label class="logo">Cesar4rroyo</label>
+               <ul class="itens">
+                   <li><a href="#home" id="home_btn">Home</a></li>
+                   <li><a href="#about" id="about_btn">about</a></li>
+                   <li><a href="#resume" id="resume_btn">resume</a></li>
+                   <li><a href="#events" id="events_btn">events</a></li>
+                   <li><a href="#contact" id="contact_btn">contact</a></li>
+               </ul>
+        </nav>  
+        </div>    
         <div class="hero" id="home">
             <div class="container">
                 <div class="hero_title">
@@ -769,6 +744,34 @@
                 <!-- Copyright -->
             </footer>
         </footer>
+        <script>
+            const menu=document.querySelector(".itens");
+            const burgerBtn=document.querySelector("#btn_burger");
+            const home_btn=document.querySelector("#home_btn");
+            const about_btn=document.querySelector("#about_btn");
+            const resume_btn=document.querySelector("#resume_btn");
+            const events_btn=document.querySelector("#events_btn");
+            const contact_btn=document.querySelector("#contact_btn");
+           
+            home_btn.addEventListener("click", hideShow2);
+            about_btn.addEventListener("click", hideShow2);
+            resume_btn.addEventListener("click", hideShow2);
+            contact_btn.addEventListener("click", hideShow2);
+            events_btn.addEventListener("click", hideShow2);
+
+            function hideShow2(){
+                menu.classList.remove("is_active")
+            }
+            burgerBtn.addEventListener("click", hideShow);
+            
+            function hideShow(){
+                if(menu.classList.contains("is_active")){
+                        menu.classList.remove("is_active");
+                }else {
+                    menu.classList.add("is_active");
+                }
+            }
+        </script>
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
