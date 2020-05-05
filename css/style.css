@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     background-image: url(../img/city-89197_1920.jpg);
     min-height: 100vh;
@@ -31,6 +36,7 @@ p {
     font-size: 4rem;
     font-weight: 600;
     font-family: sans-serif;
+    animation: sliden 3s;
 }
 
 .hero_description {
@@ -101,6 +107,7 @@ p {
 .about_contact {
     margin-top: 2rem;
 }
+
 .btn_up {
     position: fixed;
     float: right;
@@ -109,6 +116,7 @@ p {
     right: 2rem;
     z-index: 1;
 }
+
 .container_resume {
     margin-top: 1rem;
     /* margin-left: -2rem; */
@@ -229,10 +237,57 @@ a.active,
     cursor: pointer;
     display: none;
 }
+.btn-primary:hover {
+    background-color: black !important;
+    color: white;
+}
+.btn-blue:hover {
+    background-color: white !important;
+    color: #2083e4;
+}
+.btn-pink:hover {
+    background-color: white !important;
+    color: #ec407a;
+}
+.btn-green:hover {
+    background-color: white !important;
+    color: #388e3c;
+}
 
 #btn_burger {
     display: none;
     line-height: 80px;
+}
+.fa-lg:hover {
+    background-color: white;
+    border-radius: 6px;
+}
+.lista_social li a:hover {
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+}
+.list-inline-item a:hover {
+    color: black !important;
+}
+.color_contact {
+    background-color: #2196f3 !important;
+}
+.mb-5 ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.mb-5 ul a {
+    margin-right: 2rem;
+}
+.mb-5 ul a:hover {
+    background-color: white !important;
+    color: black !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 @media (max-width: 952px) {
@@ -243,9 +298,20 @@ a.active,
     .nav_menu ul li a {
         font-size: 1rem;
     }
+    .hero_title h1 {
+        text-align: center;
+    }
+}
+@media (max-width: 640px) {
+    label.logo {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 858px) {
+    .hero {
+        padding-top: 4rem;
+    }
     .lista_social {
         margin-bottom: 0;
         padding-bottom: 0;
@@ -285,6 +351,25 @@ a.active,
     }
 }
 
+@keyframes burgerMenu {
+    from {
+        transform: rotateX(60);
+    }
+    to {
+        transform: rotate(0);
+    }
+}
+@keyframes sliden {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 27%;
+        width: 100%;
+    }
+}
+
 @media (min-width: 319px) and (max-width: 480px) {
     .profile_img {
         height: 155px;
@@ -299,6 +384,9 @@ a.active,
         font-weight: 600;
         font-family: sans-serif;
     }
+    #container_profile {
+        max-width: 90%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -310,6 +398,9 @@ a.active,
         margin-right: auto;
         margin-left: auto;
     }
+    #container_profile {
+        max-width: 90%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -319,5 +410,11 @@ a.active,
     .lista_social {
         margin-bottom: 0;
         padding-bottom: 0;
+    }
+    #container_profile {
+        max-width: 60%;
+    }
+    .hero {
+        padding-top: 5rem;
     }
 }

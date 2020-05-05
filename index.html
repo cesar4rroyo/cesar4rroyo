@@ -463,19 +463,19 @@
                                         <strong>YourNotes</strong>
                                     </h3>
                                     <p style="color: aliceblue;">
-                                        An application under development that
-                                        allows posting and saving text notes,
-                                        each user registers, their data will be
-                                        saved in the Firestore Database, this
-                                        application makes use of technologies
-                                        such as ReactJs and Redux.
+                                        An application developed with React Js, 
+                                        Redux, and Firebase, a prototype of social network,
+                                         where each user publishes post, notes. 
+                                         To test it you can create a new user, 
+                                         or try the general one: user: test1@hotmail.com,
+                                         password: 123456
                                     </p>
                                     <a
                                         class="btn btn-pink"
-                                        href="https://github.com/cesar4rroyo/firebaseAuthApp"
+                                        href="https://socialplan-d7aa1.web.app/signin"
                                         target="_blank"
                                         ><i class="fas fa-clone left"></i> View
-                                        project</a
+                                        project Demo</a
                                     >
                                     <!-- https://cesar4rroyo.github.io/recipe-app/ -->
                                 </div>
@@ -689,7 +689,7 @@
                                 </div>         
                         <div class="col-lg-4">
                 
-                            <div class="card-body contact text-center h-100 white-text" style="background-color: darkcyan; color: white;">
+                            <div class="card-body contact text-center h-100 white-text color_contact" style="background-color: darkcyan; color: white;">
                     
                                 <h3 class="my-4 pb-2" style="color: white;">Contact information</h3>
                                 <ul class="text-lg-left list-unstyled ml-4">
@@ -741,41 +741,43 @@
                     <div class="row">
                         <!-- Grid column -->
                         <div class="col-md-12 py-5">
-                            <div class="mb-5 flex-center">
-                                <!-- Facebook -->
-                                <a class="fb-ic" href="https://www.facebook.com/cesar4rroyo">
-                                    <i
-                                        class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
-                                    >
-                                    </i>
-                                </a>
-                                <!-- Twitter -->
-                                <a class="tw-ic" href="https://twitter.com/cesar4rroyo">
-                                    <i
-                                        class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"
-                                    >
-                                    </i>
-                                </a>
-                                <!-- Google +-->                                
-                                <!--Linkedin -->
-                                <a class="li-ic" href="https://www.linkedin.com/in/c%C3%A9sar-arroyo-torres-062283192/">
-                                    <i
-                                        class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
-                                    >
-                                    </i>
-                                </a>
-                                <!--Instagram-->
-                                <a class="ins-ic" href="https://www.instagram.com/cesar4rroyo/">
-                                    <i
-                                        class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"
-                                    >
-                                    </i>
-                                </a>
-                                <!--Github-->
-                                <a class="pin-ic" href="https://github.com/cesar4rroyo">
-                                    <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-                                    </i>
-                                </a>
+                            <div class="mb-5">
+                                <ul>
+                                    <!-- Facebook -->
+                                    <a class="fb-ic" href="https://www.facebook.com/cesar4rroyo">
+                                        <i
+                                            class="fab fa-facebook-f"
+                                        >
+                                        </i>
+                                    </a>
+                                    <!-- Twitter -->
+                                    <a class="tw-ic" href="https://twitter.com/cesar4rroyo">
+                                        <i
+                                            class="fab fa-twitter"
+                                        >
+                                        </i>
+                                    </a>
+                                    <!-- Google +-->                                
+                                    <!--Linkedin -->
+                                    <a class="li-ic" href="https://www.linkedin.com/in/c%C3%A9sar-arroyo-torres-062283192/">
+                                        <i
+                                            class="fab fa-linkedin-in"
+                                        >
+                                        </i>
+                                    </a>
+                                    <!--Instagram-->
+                                    <a class="ins-ic" href="https://www.instagram.com/cesar4rroyo/">
+                                        <i
+                                            class="fab fa-instagram"
+                                        >
+                                        </i>
+                                    </a>
+                                    <!--Github-->
+                                    <a class="pin-ic" href="https://github.com/cesar4rroyo">
+                                        <i class="fab fa-github "></i>
+                                        </i>
+                                    </a>
+                                </ul>                                
                             </div>
                         </div>
                         <!-- Grid column -->
@@ -791,34 +793,7 @@
                 <!-- Copyright -->
             </footer>
         </footer>
-        <script>
-            const menu=document.querySelector(".itens");
-            const burgerBtn=document.querySelector("#btn_burger");
-            const home_btn=document.querySelector("#home_btn");
-            const about_btn=document.querySelector("#about_btn");
-            const resume_btn=document.querySelector("#resume_btn");
-            const events_btn=document.querySelector("#events_btn");
-            const contact_btn=document.querySelector("#contact_btn");
-           
-            home_btn.addEventListener("click", hideShow2);
-            about_btn.addEventListener("click", hideShow2);
-            resume_btn.addEventListener("click", hideShow2);
-            contact_btn.addEventListener("click", hideShow2);
-            events_btn.addEventListener("click", hideShow2);
-
-            function hideShow2(){
-                menu.classList.remove("is_active")
-            }
-            burgerBtn.addEventListener("click", hideShow);
-            
-            function hideShow(){
-                if(menu.classList.contains("is_active")){
-                        menu.classList.remove("is_active");
-                }else {
-                    menu.classList.add("is_active");
-                }
-            }
-        </script>
+        <script src="js/index.js"></script>        
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
