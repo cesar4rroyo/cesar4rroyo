@@ -1,5 +1,5 @@
 ### Hi there 👋
-<h2> Hi, I'm Cesar Arroyo! <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" width="50"></h2>
+<h2> I'm Cesar Arroyo! <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="230">
 <p><em>Systems Enginner at <a href="http://www.unb.br">UNPRG</a></br>Front End Developer
 </em></p>
@@ -18,22 +18,10 @@
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo)
 [![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab&link=https://github.com/cesar4rroyo)](https://gitlab.com/cesar4rroyo)
 
-### :tw-1f4e9: Social
+### Social
 [![Twitter: Cesar](https://img.shields.io/twitter/follow/cesar4rroyo?style=social)](https://twitter.com/cesar4rroyo)
 [![Linkedin: cesar](https://img.shields.io/badge/-cesar4rroyo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cesar4rroyo/)](https://www.linkedin.com/in/cesar4rroyo/)
 [![Instagram Badge](https://img.shields.io/badge/-cesar4rroyo-blue?style=social&logo=Instagram&link=https://www.instagram.com/cesar4rroyo/)](https://www.instagram.com/cesar4rroyo/)
 
 
-**cesar4rroyo/cesar4rroyo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
