@@ -14,6 +14,7 @@
 [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo) 
 [![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo) 
 [![React](https://img.shields.io/badge/-React-black?style=flat&logo=react&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo)
+[![Firebase](https://img.shields.io/badge/-Firebase-black?style=flat&logo=firebase&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo) 
 [![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat&logo=Node.js&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo) 
 [![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat&logo=mongoDb&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo)
 [![Git](https://img.shields.io/badge/-Git-black?style=flat&logo=git&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo) 
