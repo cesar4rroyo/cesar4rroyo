@@ -21,7 +21,7 @@
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/cesar4rroyo)](https://github.com/cesar4rroyo)
 [![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab&link=https://github.com/cesar4rroyo)](https://gitlab.com/cesar4rroyo)
 
-[![Cesar's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/cesar4rroyo/github-readme-stats)
+[![Cesar's github stats](https://github-readme-stats.vercel.app/api?username=cesar4rroyo)](https://github.com/cesar4rroyo/github-readme-stats)
 
 ### Social
 [![Twitter: Cesar](https://img.shields.io/twitter/follow/cesar4rroyo?style=social)](https://twitter.com/cesar4rroyo)
