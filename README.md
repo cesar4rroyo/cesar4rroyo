@@ -3,7 +3,7 @@
 </p>
 <h2> I'm Cesar Arroyo! <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="230">
-<p><em>Systems Enginner at <a href="http://www.unb.br">UNPRG</a></br>Front End Developer
+<p><em>Systems Enginner at <a href="http://www.unb.br">UNPRG</a>
 </em></p>
 
 ### 👨‍💻 Languages and Tools
