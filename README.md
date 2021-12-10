@@ -1,6 +1,6 @@
 <h2> I'm Cesar Arroyo!</h2>
 <img align='right' src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="230">
-<p><em>Software Developer at <a href="http://www.garzasoft.com/" target="_blank">GarzaSoft</a>
+<p><em>Full Stack Developer at <a href="http://www.garzasoft.com/" target="_blank">GarzaSoft</a>
 </em></p>
 
 ### 👨‍💻 Languages and Tools
