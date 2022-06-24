@@ -1,5 +1,5 @@
 <h2> I'm Cesar Arroyo!</h2>
-<p><em>PHP Developer at <a href="https://www.globant.com/" target="_blank">Globant</a>
+<p><em>Full Stack Developer
 </em></p>
 
 ### 👨‍💻 Languages and Tools
